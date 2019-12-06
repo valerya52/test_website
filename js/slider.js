@@ -3,7 +3,7 @@ let counter = 0;
 
 setInterval(() =>  {   
     let homeBg = document.querySelector('.home');
-    homeBg.style.background = `no-repeat scroll  center center url("/assets/images/${backgroundPhoto[counter]}")`;
+    homeBg.style.background = `no-repeat scroll  center center url("assets/images/${backgroundPhoto[counter]}")`;
     homeBg.style.backgroundSize = 'cover';
     counter++;
     if(counter === backgroundPhoto.length){

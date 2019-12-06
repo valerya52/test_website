@@ -1390,7 +1390,7 @@ work Section style
     box-shadow: 0 14px 28px rgba(33, 150, 243, 0.08), 0 4px 8px rgba(0,0,0,0.22);
     margin-top: 5%;    
     position: relative;
-    background:  url(/assets/images/modal-img.jpg);
+    background:  url('../assets/images/modal-img.jpg');
     background-size: cover;
     z-index: 501;    
 }
